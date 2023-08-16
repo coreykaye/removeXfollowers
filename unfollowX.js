@@ -1,1 +1,1 @@
-function unfollow(x) {document.querySelectorAll('[aria-label^="Following"]')[x].click();document.querySelector('div[data-testid="confirmationSheetConfirm"]').click() ;} for (x=0; x = 40; x++) {unfollow(1);}
+function unfollow(x) {document.querySelectorAll('[aria-label^="Following"]')[x].click();document.querySelector('div[data-testid="confirmationSheetConfirm"]').click() ;} for (x=0; x <= 40; x++) {unfollow(1);}
